@@ -344,7 +344,7 @@
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.cameraBox);
             this.Name = "Form1";
-            this.Text = "Face Detection and Recognition";
+            this.Text = "/";
             ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
