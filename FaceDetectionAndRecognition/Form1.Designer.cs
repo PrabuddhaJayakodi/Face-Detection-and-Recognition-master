@@ -297,13 +297,13 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.label11.Location = new System.Drawing.Point(707, 547);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(37, 20);
+            this.label11.Size = new System.Drawing.Size(34, 20);
             this.label11.TabIndex = 28;
-            this.label11.Text = "NIC";
+            this.label11.Text = "Nic";
             // 
             // txtbox_nic
             // 
-            this.txtbox_nic.Location = new System.Drawing.Point(848, 536);
+            this.txtbox_nic.Location = new System.Drawing.Point(848, 545);
             this.txtbox_nic.Name = "txtbox_nic";
             this.txtbox_nic.Size = new System.Drawing.Size(379, 22);
             this.txtbox_nic.TabIndex = 29;
