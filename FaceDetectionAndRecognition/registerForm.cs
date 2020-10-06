@@ -32,5 +32,11 @@ namespace FaceDetectionAndRecognition
              register1.BringToFront();
            
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 objform1 = new Form1();
+            objform1.Show();
+        }
     }
 }

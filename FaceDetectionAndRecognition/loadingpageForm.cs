@@ -25,7 +25,7 @@ namespace FaceDetectionAndRecognition
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            registerForm obj2 = new registerForm();
+            loginpageForm obj2 = new loginpageForm();
             obj2.Show();
         }
     }

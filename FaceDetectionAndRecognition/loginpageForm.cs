@@ -69,13 +69,14 @@ namespace FaceDetectionAndRecognition
 
                     this.Hide();
 
-                    Form1 obj = new Form1();
+                    registerForm obj = new registerForm();
                     obj.ShowDialog();
 
                     obj = null;
 
                     this.Show();
                     this.txtbox_username.Select();
+                    //
 
 
                 }else

@@ -37,8 +37,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.dashboard1 = new FaceDetectionAndRecognition.dashboard();
             this.register1 = new FaceDetectionAndRecognition.register();
+            this.dashboard1 = new FaceDetectionAndRecognition.dashboard();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +92,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Add Persons";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -158,14 +159,6 @@
             this.panel5.Size = new System.Drawing.Size(1018, 658);
             this.panel5.TabIndex = 2;
             // 
-            // dashboard1
-            // 
-            this.dashboard1.BackColor = System.Drawing.Color.White;
-            this.dashboard1.Location = new System.Drawing.Point(0, 0);
-            this.dashboard1.Name = "dashboard1";
-            this.dashboard1.Size = new System.Drawing.Size(1018, 658);
-            this.dashboard1.TabIndex = 0;
-            // 
             // register1
             // 
             this.register1.BackColor = System.Drawing.Color.White;
@@ -174,6 +167,14 @@
             this.register1.Name = "register1";
             this.register1.Size = new System.Drawing.Size(1018, 658);
             this.register1.TabIndex = 3;
+            // 
+            // dashboard1
+            // 
+            this.dashboard1.BackColor = System.Drawing.Color.White;
+            this.dashboard1.Location = new System.Drawing.Point(0, 0);
+            this.dashboard1.Name = "dashboard1";
+            this.dashboard1.Size = new System.Drawing.Size(1018, 658);
+            this.dashboard1.TabIndex = 0;
             // 
             // registerForm
             // 
