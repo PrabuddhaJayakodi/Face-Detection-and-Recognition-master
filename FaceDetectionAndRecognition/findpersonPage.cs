@@ -73,8 +73,8 @@ namespace FaceDetectionAndRecognition
             MailMessage message = new MailMessage();
             message.To.Add(to);
             message.From = new MailAddress("prabuddhajayakodi@gmail.com");
-            message.Body = "kunu danna epa oii";
-            message.Subject = "kunu damma neda uba";
+            message.Body = "Hello, You have thrown garbage in to road today. you know you destroy our mother country. we hope that you never do that ";
+            message.Subject = "You destroyed your mother country today";
             // SmtpClient stmp = new StmpClient("");
             SmtpClient smtp = new SmtpClient("smtp.gmail.com");
             smtp.EnableSsl = true;
