@@ -20,7 +20,7 @@ namespace FaceDetectionAndRecognition
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new findpersonPage());
+            Application.Run(new loadingpageForm());
 
         }
     }

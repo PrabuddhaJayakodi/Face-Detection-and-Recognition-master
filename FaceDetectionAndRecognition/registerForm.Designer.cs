@@ -39,6 +39,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.register1 = new FaceDetectionAndRecognition.register();
             this.dashboard1 = new FaceDetectionAndRecognition.dashboard();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -48,6 +49,7 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -176,6 +178,24 @@
             this.dashboard1.Size = new System.Drawing.Size(1018, 658);
             this.dashboard1.TabIndex = 0;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(39, 349);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(181, 33);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Complains";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // registerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -204,5 +224,6 @@
         private System.Windows.Forms.Panel panel5;
         private dashboard dashboard1;
         private register register1;
+        private System.Windows.Forms.Button button5;
     }
 }

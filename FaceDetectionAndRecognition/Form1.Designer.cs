@@ -35,7 +35,7 @@
             this.saveButton = new System.Windows.Forms.Button();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_find1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -115,17 +115,18 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Id";
             // 
-            // button2
+            // btn_find1
             // 
-            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(848, 609);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 41);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_find1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_find1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_find1.ForeColor = System.Drawing.Color.White;
+            this.btn_find1.Location = new System.Drawing.Point(848, 609);
+            this.btn_find1.Name = "btn_find1";
+            this.btn_find1.Size = new System.Drawing.Size(133, 41);
+            this.btn_find1.TabIndex = 8;
+            this.btn_find1.Text = "Find";
+            this.btn_find1.UseVisualStyleBackColor = false;
+            this.btn_find1.Click += new System.EventHandler(this.btn_find1_Click);
             // 
             // label2
             // 
@@ -339,7 +340,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_find1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.saveButton);
@@ -360,7 +361,7 @@
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_find1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

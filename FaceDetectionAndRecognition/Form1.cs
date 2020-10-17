@@ -83,6 +83,9 @@ namespace FaceDetectionAndRecognition
             }
 
             MessageBox.Show(nameTextBox.Text + "saved successfully");
+
+            registerForm obj = new registerForm();
+            obj.Show();
         }
 
        void Clear()
@@ -98,7 +101,11 @@ namespace FaceDetectionAndRecognition
             obj.Show();
         }
 
-       
+        private void btn_find1_Click(object sender, EventArgs e)
+        {
+            findpersonPage obj2 = new findpersonPage();
+            obj2.Show();
+        }
 
         public Form1()
         {

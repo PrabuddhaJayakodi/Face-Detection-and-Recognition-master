@@ -38,5 +38,12 @@ namespace FaceDetectionAndRecognition
             Form1 objform1 = new Form1();
             objform1.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            reportlistForm objform2 = new reportlistForm();
+            objform2.Show();
+
+        }
     }
 }
