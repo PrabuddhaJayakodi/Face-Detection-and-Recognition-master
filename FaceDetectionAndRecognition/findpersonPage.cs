@@ -94,7 +94,7 @@ namespace FaceDetectionAndRecognition
             smtp.EnableSsl = true;
             smtp.Port = 587;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtp.Credentials = new NetworkCredential("prabuddhajayakodi@gmail.com", "prabu@022");
+            smtp.Credentials = new NetworkCredential("xxxxxxxxxx@gmail.com", "xxx@xxx");
 
             try
             {
