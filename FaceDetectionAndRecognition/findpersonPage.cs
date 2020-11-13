@@ -37,6 +37,20 @@ namespace FaceDetectionAndRecognition
                 da.Fill(dt);
                 dataGridView_details.DataSource = dt;
                 sqlCon.Close();
+
+                //UI designs for data grid view
+
+                dataGridView_details.BorderStyle = BorderStyle.None;
+                dataGridView_details.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(238, 239, 249);
+                dataGridView_details.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+                dataGridView_details.DefaultCellStyle.SelectionBackColor = Color.DarkTurquoise;
+                dataGridView_details.DefaultCellStyle.SelectionForeColor = Color.WhiteSmoke;
+                dataGridView_details.BackgroundColor = Color.White;
+
+                dataGridView_details.EnableHeadersVisualStyles = false;
+                dataGridView_details.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+                dataGridView_details.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(20, 25, 72);
+                dataGridView_details.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
             }
 
 
